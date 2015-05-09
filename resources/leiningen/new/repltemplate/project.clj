@@ -8,7 +8,7 @@
 
   :repl-options { :init-ns {{name}}.repl }
 
-  :plugins [[lein-cprint "1.0.0"]]
+  :plugins [[lein-cprint "1.1.0"]]
 
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/tools.namespace "0.2.10"]
