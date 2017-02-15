@@ -12,6 +12,7 @@
 
   :dependencies [[com.stuartsierra/component "0.3.2"]
                  [org.clojure/clojure "1.8.0"]
+                 [org.clojure/core.match  "0.3.0-alpha4"]
                  [org.clojure/tools.logging "0.3.1"]
                  [org.clojure/tools.namespace "0.2.10"]
                  [slingshot "0.12.2"]]
