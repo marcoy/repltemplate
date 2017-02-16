@@ -1,0 +1,16 @@
+<configuration debug="true" scan="true">
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- <target>System.out</target> -->
+        <encoder>
+            <pattern>%date{ISO8601} [%thread] %highlight(%-5level) %cyan(%logger{36}) %magenta(%X{sourceThread}) - %msg%n</pattern>
+            <!--<pattern>%date{MM/dd HH:mm:ss} %-6level[%logger{0}]: %msg%n</pattern>-->
+            <!--<pattern>%-6level[%logger{0}]: %msg%n</pattern>-->
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
