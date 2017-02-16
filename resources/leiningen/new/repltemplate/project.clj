@@ -17,4 +17,6 @@
                  [org.clojure/tools.namespace "0.2.10"]
                  [slingshot "0.12.2"]]
 
+  :main {{name}}.core
+
   :profiles {:dev {:dependencies [[alembic "0.3.2"]]}})
